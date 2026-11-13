@@ -1,0 +1,11 @@
+# Record a region, a window or the screen to MP4 with audio, then trim and export MP4 or GIF.
+id = "screen-recorder"
+name = "Screen Recorder"
+icon = "record"
+size = "small"
+run = ["python", "main.py"]
+hotkey = "ctrl+alt+KeyM"
+page_size = [640, 460]
+description = "Record a region, a window or the whole screen to MP4 with system audio and the mic, with a countdown, pause and resume. Trim on a filmstrip, export MP4 or GIF, and find recent recordings on the page."
+author = "Fenn"
+version = "2.0.0"
